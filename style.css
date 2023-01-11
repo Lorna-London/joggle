@@ -59,8 +59,8 @@ footer {
     margin-top: 10%;
 }
 
-footer > p {
-    font-size: 0.8rem;
+footer p {
+    font-size: 0.6rem;
 }
 
 @media only screen and (min-width: 600px) {
