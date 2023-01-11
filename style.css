@@ -21,6 +21,10 @@ header {
     text-decoration-color: black;
 }
 
+nav a:visited {
+    color: black;
+}
+
 header, main, section, footer {
     padding: 4%;
 }
