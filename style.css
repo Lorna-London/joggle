@@ -34,7 +34,11 @@ h2 {
     font-size: 3rem; 
     color: rgb(26, 26, 86);
     font-weight: bold;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+}
+
+section p {
+    padding-bottom: 5%;
 }
 
 .calendar {
