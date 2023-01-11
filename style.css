@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, nav {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header, main, section, footer {
+    padding: 4%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(63, 63, 135);
+}
+
+h2 {
+    font-size: 3rem; 
+    color: rgb(26, 26, 86);
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+.calendar {
+    width: 85vw;
+    height: 55vw;
+    background-color: rgb(198, 223, 246);
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.dates {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.dates li {
+    padding: 3%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+    .main {
+        display: flex;
+    }
+    .dates li {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .main {
+        display: flex;
+    }
+    .header {
+        padding-top:1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 0%;
+    }
+
+    .calendar {
+        height: 70vh;;
+    }
+
+    .dates li {
+        font-size: 2rem;
+    }
+}
