@@ -76,6 +76,11 @@ footer p {
     .main {
         display: flex;
     }
+
+    section p {
+        font-size: 1.1rem;
+    }
+
     .dates li {
         font-size: 1.5rem;
     }
@@ -92,8 +97,12 @@ footer p {
         padding-bottom: 0%;
     }
 
+    section p {
+        font-size: 1.3rem;
+    }
+
     .calendar {
-        height: 70vh;;
+        height: auto;
     }
 
     .dates li {
