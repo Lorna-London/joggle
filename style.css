@@ -50,6 +50,7 @@ section p {
     width: 85vw;
     height: auto;
     background-color: rgb(198, 223, 246);
+    background-color: aliceblue;
     margin: 0 auto;
     border-radius: 12px;
 }
