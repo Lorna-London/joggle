@@ -49,7 +49,7 @@ section p {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .calendar {
@@ -75,7 +75,7 @@ footer {
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -100,10 +100,6 @@ footer p {
 
     section p {
         font-size: 1.1rem;
-    }
-
-    .calendar {
-        height: auto;
     }
 
     .dates li {
