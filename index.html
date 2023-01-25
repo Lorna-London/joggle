@@ -13,19 +13,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="homepage-body">
-    <header class="homepage-header">
+  <body class="body">
+    <header class="header">
       <hero class="logo">Joggle &#939</hero>
       <nav class="nav"><a href="tasks.html"><span>+</span>Add task</a></nav>
     </header>
     <main class="main">
       <section class="welcome">
-        <h1>Good morning</h1>
-        <h2>Anna</h2>
+        <h1>Good Morning</h1>
+        <h2 class="my-name">Anna</h2><input
+        type="text"
+        name="input-name"
+        class="input-name"
+        id="input-name"
+        placeholder="Enter name"
+      />
         <p>Select a date from the calendar to see your tasks for the day.</p>
       </section>
       <section class="calendar">
-       <h3 class="month">January</h3>
+       <h3>January</h3>
           <ul class="dates">
             <li>1</li>
             <li>2</li>
@@ -61,10 +67,14 @@
           </ul>
         </div>
       </section>
+    
+     
     </main>
+    
     <footer>
       <p>&copy Copyright 2023 by Lorna London</p> 
       <p>All rights reserved</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
