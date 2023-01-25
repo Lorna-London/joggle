@@ -53,6 +53,7 @@ h2 {
 
 .text-box::placeholder {
     color:darkgrey;
+    border-color: aqua;
 }
 
 section p {
