@@ -42,7 +42,8 @@ h2 {
 }
 
 section p {
-    font-size: 0.7rem;
+    font-size: 0.7rem; 
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 
@@ -64,9 +65,10 @@ section p {
 }
 
 .input-name {
-    width: 200px;
+    width: 300px;
     border: none;
-    padding-bottom: 5%;
+    padding: 5%;
+    background-color: rgb(63, 63, 135);
 }
 
 .btn {
