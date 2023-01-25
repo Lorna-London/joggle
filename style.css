@@ -42,9 +42,9 @@ h2 {
 }
 
 .input-name {
-    width: 305px;
+    width: 335px;
     border: none;
-    padding: 5%;
+    padding: 4%;
     background-color: rgb(26, 26, 86);
     color: white;
     font-size: 1.2rem;
@@ -114,12 +114,20 @@ footer p {
         display: flex;
     }
 
+    section p {
+        font-size: 1.1rem;
+    }
+
     .calendar {
         height: auto;
     }
 
     .dates li {
         font-size: 2rem;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
 
