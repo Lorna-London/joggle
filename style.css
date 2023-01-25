@@ -63,6 +63,17 @@ section p {
     padding: 3%;
 }
 
+.input-name {
+    width: 200px;
+    border: none;
+    padding-bottom: 5%;
+}
+
+.btn {
+    width: 70px;
+    height: 20px;
+}
+
 footer {
     text-align: center;
     margin-top: 10%;
@@ -82,21 +93,26 @@ footer p {
 }
 
 @media only screen and (min-width: 900px) {
-    .main {
-        display: flex;
-    }
+   
     .header {
         padding-top:1%;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 0%;
+    } 
+    
+    .main {
+        display: flex;
     }
 
     .calendar {
-        height: 70vh;;
+        height: auto;
     }
 
     .dates li {
         font-size: 2rem;
     }
 }
+
+/*TASK PAGE*/
+
