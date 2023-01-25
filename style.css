@@ -6,13 +6,11 @@
     list-style-type: none;
 }
 
-/*HOME PAGE*/
-
-.homepage-body {
+.body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.homepage-header {
+header {
     display: flex;
     justify-content: space-between;
 }
@@ -27,7 +25,7 @@ nav a:visited {
     color: black;
 }
 
-.homepage-header, main, section, footer {
+header, main, section, footer {
     padding: 4%;
 }
 
@@ -44,17 +42,14 @@ h2 {
 }
 
 section p {
-    font-size: 0.7rem;
+    font-size: 0.7rem; 
+    padding-top: 10%;
     padding-bottom: 5%;
-}
-
-h3 {
-    font-size: 1.3rem;
 }
 
 .calendar {
     width: 85vw;
-    height: auto;
+    height: 55vw;
     background-color: rgb(198, 223, 246);
     margin: 0 auto;
     border-radius: 12px;
@@ -67,6 +62,18 @@ h3 {
 
 .dates li {
     padding: 3%;
+}
+
+.input-name {
+    width: 300px;
+    border: none;
+    padding: 5%;
+    background-color: rgb(63, 63, 135);
+}
+
+.btn {
+    width: 70px;
+    height: 20px;
 }
 
 footer {
@@ -88,18 +95,20 @@ footer p {
 }
 
 @media only screen and (min-width: 900px) {
-    .main {
-        display: flex;
-    }
-    .homepage-header {
+   
+    .header {
         padding-top:1%;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 0%;
+    } 
+    
+    .main {
+        display: flex;
     }
 
-    section p {
-        font-size: 1.1rem;
+    .calendar {
+        height: auto;
     }
 
     .dates li {
@@ -108,3 +117,4 @@ footer p {
 }
 
 /*TASK PAGE*/
+
