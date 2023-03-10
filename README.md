@@ -1,1 +1,3 @@
-# Joggle allows you view tasks on a selected date from the calendar and create new ones. 
+# Joggle allows you to create and view tasks 
+1. Select a date from the calendar to view your task/s for the day 
+2. Click 'add new task' to create a new one
