@@ -6,7 +6,85 @@
     list-style-type: none;
 }
 
-.body {
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+}
+
+.header {
+    height: 70px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+
+.logo {
+
+}
+
+.add-task {
+
+}
+
+.main {
+    height: 90vh;
+}
+
+.welcome-wrapper {
+    padding: 4%;
+}
+
+.calendar-wrapper {
+    margin-top: 10%;
+    padding: 4%;
+}
+
+.my-name {
+    color: rgb(48, 58, 99);
+}
+
+.select-date {
+    font-size: 1.3rem;
+}
+
+form {
+    margin-top: 5%;
+}
+
+label {
+    
+}
+
+input {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        background-color: aqua;
+    }
+
+    main {
+        display: flex;
+    }
+    form {
+        width: 500px;
+    }
+}
+
+/*.body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

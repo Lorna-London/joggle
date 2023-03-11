@@ -1,4 +1,4 @@
-const myName = document.querySelector('.my-name');
+/*const myName = document.querySelector('.my-name');
 const textBox = document.querySelector('.text-box');
 
 textBox.addEventListener('keyup', updateName);
@@ -9,3 +9,5 @@ function updateName() {
         myName.style.color = "orange";
     }
 }
+
+*/
